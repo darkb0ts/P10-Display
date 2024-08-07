@@ -7,6 +7,9 @@
 - **Scroll Text:** Display text with a scrolling effect.
 - **Blink Text:** Display text with a blinking effect.
 - **Scroll and Blink:** Combine both scrolling and blinking effects on the text.
+- **Python Version:**  Python 3.11.2
+- **Php Version:**  PHP 8.2.20 (cli) 
+- **Mysql Vesrion:** Ver 15.1 Distrib 10.11.6-MariaDB
 - **API Integration:** 
   - **Post Data:** `localhost/postapi.php`
   - **Get Data:** `localhost/api.php`
