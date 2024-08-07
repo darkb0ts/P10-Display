@@ -126,6 +126,19 @@ After installation, the P10 display will be ready to use with the following feat
   ```
 
 
+## Finally Add Rc.local 
+
+```
+sudo nano /etc/rc.local
+
+cd /home/pi/rpi-rgb-led-matrix/bindings/python/samples
+
+python scroll-text.py
+
+exit 0
+
+```
+
 ### Web Interface
 Open your web browser and navigate to `http://<your_raspberry_pi_ip_address>` to access the user interface where you can change the displayed text and select effects.
 
