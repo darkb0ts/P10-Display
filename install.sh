@@ -8,6 +8,10 @@ sudo apt-get update
 echo "Installing Apache..."
 sudo apt-get install -y apache2
 
+sudo apt-get install cpython -y
+
+sudo apt-get install nmap -y
+
 # Start Apache service and enable it to start on boot
 echo "Starting Apache service..."
 sudo systemctl start apache2
