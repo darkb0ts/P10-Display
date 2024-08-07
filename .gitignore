@@ -4,3 +4,21 @@
 *.so
 .envrc
 .direnv
+
+# Exclude all audio files
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.aac
+*.m4a
+*.wma
+*.aiff
+
+# Exclude specific directories and files
+myvenv
+
+bindings/python/dist/
+bindings/python/rgbmatrix/__pycache__/
+bindings/python/samples/.bashrc
+bindings/python/samples/__pycache__/
